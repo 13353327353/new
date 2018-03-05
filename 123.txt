@@ -1,0 +1,8 @@
+// foo.js
+module.exports = function(x) {
+  console.log(x);
+};
+
+// main.js
+var foo = require("./foo");
+foo("Hi");
